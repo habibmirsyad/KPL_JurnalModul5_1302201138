@@ -41,7 +41,7 @@ namespace KPL_1302201138_MOD5_JURNAL_GGR
 
         public void printAllVideoOlaycount()
         {
-            for (int i = 0; i < uploadedVideos.Length; i++)
+            for (int i = 0; i < 8; i++)
             {
                 Console.WriteLine("User: " + username);
                 Console.WriteLine("Video "+ i+1 +" judul: " + uploadedVideos[i].title);
